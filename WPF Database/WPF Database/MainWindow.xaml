@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_Database.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Database"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Show Data" HorizontalAlignment="Left" Margin="331,80,0,0" VerticalAlignment="Top" Width="110" Height="42" FontSize="16"/>
+        <DataGrid HorizontalAlignment="Left" Height="283" Margin="10,127,0,0" VerticalAlignment="Top" Width="377"/>
+        <DataGrid HorizontalAlignment="Left" Height="283" Margin="392,127,0,0" VerticalAlignment="Top" Width="392"/>
+
+    </Grid>
+</Window>
